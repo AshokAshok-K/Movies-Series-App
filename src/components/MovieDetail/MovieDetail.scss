@@ -1,0 +1,54 @@
+@import '../../common/colors.scss';
+
+.movie-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 40px 0px;
+    color: $font-primary;
+    font-weight: 400;
+}
+
+.movie-title{
+    color: $font-primary;
+    font-size: 40px;
+    
+}
+
+.movie-rating{
+    padding-left: 3px;
+    margin-top: 1rem ;
+    color: $font-secondary;
+    display: flex;
+    span{
+       
+        margin-right: 1rem;
+    }
+    span i{
+        margin-left: 0.5rem;
+        color: rgba(243, 245, 39);
+    }
+}
+
+.movie-plot{
+    margin-top: 20px;
+    line-height: 1.8rem;
+}
+
+.movie-info > div span:first-child{
+ 
+    padding: 10px 0px;
+    color: $font-primary;
+    font-weight: 600;
+    display: inline-block;
+    width: 100px;
+}
+
+.movie-info > div span{
+    color: $font-secondary;
+}
+
+
+.section-right {
+    margin-left: 30px;
+  }
